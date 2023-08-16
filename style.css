@@ -293,6 +293,28 @@ padding: 0;
     margin-top: 20px;
     font-weight: 600;
 }
+.Sub-header{
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+    background-image:url(about_backgrnd.jpg);
+    background-size: cover;
+}
+.about-us{
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+}
+.about-us h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.about-us ul{
+    font-weight: 500;
+    padding: 5;
+}
 
 
 
