@@ -23,7 +23,7 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showmenu()"></i>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
         </nav>
         <hr>
     <div class="text-box">
@@ -87,7 +87,7 @@
                     <h3>HONESTY AND INTEGRITY</h3>               
                     <p>Honesty and integrity are root, on which the substratum 
                     of any organization has been pinned and our firm follows
-                     all terms and conditions of these two moral values.
+                    all terms and conditions of these two moral values.
                     </p>                   
                 </div>
             </div>
@@ -176,12 +176,14 @@
     </section>
     <!--JavaScript-->
     <script>
-        var navLinks = documents.getElementById("navLinks");
-        function showMenu(){
-            navLink.style.right="0";
+        function showMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.style.right = '0';
         }
-        function hideMenu(){
-            navLink.style.right="-200px";
+
+        function hideMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.style.right = '-200px';
         }
     </script>
 </body>
